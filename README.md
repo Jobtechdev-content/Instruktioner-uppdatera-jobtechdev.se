@@ -48,9 +48,8 @@ Hur lägger jag in bilder i mott innehåll?
 
 * För att din bild skall visas, behöver du lägga in följande, i det dokument där du vill ha bilden. 
   Se exempel nedan för bild som finns i JobAd Enrich dokumentationen.
-  
- ``<img src="https://github.com/Jobtechdev-content/”ditt repo”/blob/master/img/”din bild”.png?raw=true"
-     alt="Beskrivande Alt text" />`` 
+       
+  ``![Vad bilden visar](https://github.com/Jobtechdev-content/"ditt repo"/blob/master/img/"bilden".png?raw=true)``
      
 *	Klicka på commit changes
 *	Kontrollera din fil för att kontrollera att allt ser ok ut, behöver du ändra något så klicka på ikonen som ser ut som en penna igen.
