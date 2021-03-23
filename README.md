@@ -31,7 +31,7 @@ Hur gör jag då för att skapa innehåll?
 *	När du är nöjd med innehållet, klicka på Pull request i menyraden och sedan på New pull request. Ändra base: till master och compare: till develop. Skriv in en titel och kommentar, klicka på Create pull request, klicka sedan på Merge pull request och sedan på Confirm merge.
 
 ### Lägga till bild
-Hur lägger jag in bilder i mott innehåll?
+Hur lägger jag in bilder i mitt innehåll?
 
 *	Om det inte redan finns en mapp för bilder i repot, behöver du börja med att skapa en. Det gör du såhär:
   *	Klicka på Add file
@@ -47,7 +47,7 @@ Hur lägger jag in bilder i mott innehåll?
   * Välj din fil och klicka sedan på Commit changes
 
 * För att din bild skall visas, behöver du lägga in följande, i det dokument där du vill ha bilden. 
-  Se exempel nedan för bild som finns i JobAd Enrich dokumentationen.
+  Se exempel nedan.
        
   ``![Vad bilden visar](https://github.com/Jobtechdev-content/"ditt repo"/blob/master/img/"bilden".png?raw=true)``
      
