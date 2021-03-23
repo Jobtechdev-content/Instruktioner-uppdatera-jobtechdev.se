@@ -30,6 +30,33 @@ Hur gör jag då för att skapa innehåll?
 *	Kontrollera din fil för att kontrollera att allt ser ok ut, behöver du ändra något så klicka på ikonen som ser ut som en penna igen.
 *	När du är nöjd med innehållet, klicka på Pull request i menyraden och sedan på New pull request. Ändra base: till master och compare: till develop. Skriv in en titel och kommentar, klicka på Create pull request, klicka sedan på Merge pull request och sedan på Confirm merge.
 
+### Lägga till bild
+Hur lägger jag in bilder i mott innehåll?
+
+*	Om det inte redan finns en mapp för bilder i repot, behöver du börja med att skapa en. Det gör du såhär:
+  *	Klicka på Add file
+  *	Välj Create new file
+  *	I rutan för filnamnet skriver du vad din mapp ska heta, förslagsvis Img, avsluta namnet med / 
+  *	För att du skall kunna spara mappen, behöver det finnas en fil i den.  Så skriv in xx.md efter / i rutan för filnamn.
+  *	Scrolla ner och se till att commit directly to the develop branch är förvalt
+  *	Klicka sedan på gröna knappen Commit new file, nu finns det en mapp som heter img och innehåller en tom .md fil.
+
+*	Nu är det dags att lägga till din bild i mappen.
+  * Klicka på mappen img ( eller vad du döpte den till)
+  * Klicka på Add file, välj Upload files
+  * Välj din fil och klicka sedan på Commit changes
+
+* För att din bild skall visas, behöver du lägga in följande, i det dokument där du vill ha bilden. 
+  Se exempel nedan för bild som finns i JobAd Enrich dokumentationen.
+  
+ ``<img src="https://github.com/Jobtechdev-content/”ditt repo”/blob/master/img/”din bild”.png?raw=true"
+     alt="Beskrivande Alt text" />`` 
+     
+*	Klicka på commit changes
+*	Kontrollera din fil för att kontrollera att allt ser ok ut, behöver du ändra något så klicka på ikonen som ser ut som en penna igen.
+*	När du är nöjd med innehållet, klicka på Pull request i menyraden och sedan på New pull request. Ändra base: till master och compare: till develop. Skriv in en titel och kommentar, klicka på Create pull request, klicka sedan på Merge pull request och sedan på Confirm merge.
+
+
 När nytt innehåll är skapat behöver du maila till Ulrika (perui) eller Mats (lofms) gärna båda, mailet behöver innehålla:
 
 *	En kort beskrivning behöver finnas om det gäller ett projekt eller ett API.
