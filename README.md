@@ -37,7 +37,7 @@ Hur lägger jag in bilder i mitt innehåll?
   *	Klicka på Add file
   *	Välj Create new file
   *	Klistra in innehållet från mallen, och lägg till ditt eget innehåll.
-  *	I rutan för filnamnet skriver du vad din mapp ska heta, förslagsvis Img, avsluta namnet med / 
+  *	I rutan för filnamnet skriver du vad din mapp ska heta, förslagsvis img, avsluta namnet med / 
   *	För att du skall kunna spara mappen, behöver det finnas en fil i den. Så skriv in xx.md efter / i rutan för filnamn.
   *	Scrolla ner och se till att commit directly to the develop branch är förvalt
   *	Klicka sedan på gröna knappen Commit new file, nu finns det en mapp som heter img och innehåller en tom .md fil.
